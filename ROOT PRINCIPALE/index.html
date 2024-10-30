@@ -5,16 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Sviluppo di una pagina web</title>
+    <meta name="description" content="Primi passi operativi per creare un modello di pagina HTML per un post. 
+    Scopri come iniziare in modo facile" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="" href="grazie.html" />
+
 </head>
 
 <body>
     <container>
         <header>
             <div></div>
-            <img src="img/logo epicode.svg" alt="Logo epicode"/>
+            <img src="img/logo epicode.svg" alt="Logo epicode" id="Logo"/>
             <p>Epicode-Il blog dei developers</p>
         </header>
-        <nav> 
+        <nav>
             <ul>
                 <li><a href="Javascript:void(0)" title="HOME">Home</a></li>
                 <li><a href="Javascript:void(0)" title="Articoli">Articoli</a></li>
@@ -27,12 +32,22 @@
         <p> di Mario Rossi - pubblicato il 25-10-2020 <br>
         <p></p>
         La prima cosa da fare è suddividere in blocchi logici la pagina, identificando <b>le parti comuni</b> da
-        applicare a tutte le pagine <br>
+        applicare a tutte le pagine: <br>
         <p></p>
 
-        Le varie aree saranno quindi suddivise in:</p>
+       <p>Le varie aree saranno quindi suddivise in:</p> 
+ <ul> 
+    <li> Contenuti di intestazione del tag <code> &lt;header&gt;</code></li>
+    <li> Contenuti centrali variabili del tag <code> &lt;main&gt;</code> (corpo principale) </li>
+    <li> Contenuti di fine pagina comuni, da inserire nel tag <code> &lt;footer&gt;</code><code</li>
+
+ </ul>
+
+
+
+
         <H2>Formattazione del codice</H2>
-        <p>l testo dell'articolo dovrà essere formattato per identificare tutte le parti da <b>selezionare con i
+        <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <b>selezionare con i
                 CSS</b>. Perciò i passi saranno:</p>
         <ol>
             <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
@@ -80,7 +95,8 @@
                 </tr>
             </tbody>
         </table>
-        <p>Un test di validazione potrà essere fatto tramite il <a href="https://jigsaw.w3.org/css-validator/">tool online</a> dedicato allo scopo.
+        <p>Un test di validazione potrà essere fatto tramite il <a href="https://jigsaw.w3.org/css-validator/">tool
+                online</a> dedicato allo scopo.
             Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri
             developers come loro:</p>
         <br />
@@ -92,14 +108,14 @@
         <form>
             <legend>Iscriviti</legend>
             <h2>Novità</h2>
-                <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
-                <form>
-                    <legend>Iscriviti</legend>
-                    <fieldset>
-                        <input type="email" name="email" id="email" placeholder="Inserisci email" />
-                        <button type="submit">Iscriviti</button>
-                    </fieldset>
-                </form>
+            <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+            <form>
+                <legend>Iscriviti</legend>
+                <fieldset>
+                    <input type="email" name="email" id="email" placeholder="Inserisci email" />
+                    <button type="submit">Iscriviti</button>
+                </fieldset>
+            </form>
             </article>
             <aside>
                 <h2>Articoli correlati</h2>
@@ -118,20 +134,20 @@
                 <p>Categoria: ottimizzazione</p>
                 <p>Data: 18-9-2020</p>
             </aside>
-        </main>
-        <hr />
-        <footer>
-            <p>Blog epicode &copy; 2021 </p>
-            <i> Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 -
-                Milano. P.IVA 00112233. <a href="mailto:info@epicode.school">info@epicode.school</a></i>
-        </footer>
+            </main>
+            <hr />
+            <footer>
+                <p>Blog epicode &copy; 2021 </p>
+                <i> Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 -
+                    Milano. P.IVA 00112233. <a href="mailto:info@epicode.school">info@epicode.school</a></i>
+            </footer>
     </container>
 </body>
 
 </html>
-        
 
-        
+
+
 
 
 
